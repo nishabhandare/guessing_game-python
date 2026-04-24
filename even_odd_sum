@@ -1,0 +1,22 @@
+i=1
+even=0
+odd=0
+sum=0
+total=0
+n=int(input("enter range to enter number : "))
+
+while i<=n:
+  
+    num=int(input("enter number to check even or odd : "))
+    if num%2==0:
+        print(num," is even number")
+        even += 1
+    else:
+        print(num," is odd number")
+        odd +=1
+        
+    sum = sum+num
+    i=i+1
+print("addition of all number is",sum)
+print("total even numbers : ",even)
+print("total odd numbers : ",odd)
